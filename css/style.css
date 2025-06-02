@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 * {
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
@@ -9,6 +10,55 @@
 }
 
 .active-tab {
-    color: #013088;
-    box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 6%);
+  color: #013088;
+  box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 6%);
+}
+
+.faq-accordion .accordion-item .accordion-header .icon:before {
+  content: "\2b";
+}
+
+.faq-accordion .accordion-item .accordion-header .icon.icon-reverse:before {
+  content: '\f068';
+}
+
+.delivering-accordion .accordion-item.active .accordion-header {
+  color: #013088;
+}
+
+.delivering-accordion .accordion-item .accordion-header .icon:before {
+  content: '\f078';
+}
+
+.delivering-accordion .accordion-item .accordion-header .icon.icon-reverse:before {
+  content: '\f077';
+}
+
+.analyzing-tabs-content .tabs .active-tab {
+  background-color: #013088;
+  border-color: #013088;
+  color: #FFFFFF;
+}
+
+.partnerSlider {
+    padding-right: 30px;
+    padding-left: 16px;
+  }
+
+@media (min-width: 768px) {
+  .partnerSlider {
+    padding-right: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .partnerSlider {
+    padding-right: 100px;
+  }
+}
+
+@media (min-width: 1232px) {
+  .partnerSlider {
+    padding-inline: 7%;
+  }
 }
