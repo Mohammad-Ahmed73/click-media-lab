@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+.shadow-soft {
+  box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 6%);
+}
+
+.active-tab {
+    color: #013088;
+    box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 6%);
+}
